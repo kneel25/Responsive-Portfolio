@@ -1,0 +1,275 @@
+h1{
+    color: whitesmoke;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 20px;
+    padding: 20px;
+    background-color: teal;
+    float: left;
+    margin-left: 170px;
+    margin-top: 20px;
+}
+
+header{
+    padding: 20px;
+    color:whitesmoke;
+    height: 60px;
+    background-color:#cccccc;
+    text-align: left;
+    font-size: large;
+}
+/* internal links to nav pages */
+.links{
+    float: right;
+    font-family: 'Gloria Hallelujah', cursive;
+
+}
+/* little icon link images */
+.link{
+    margin-top: 8px;
+    margin-bottom: 10px;
+    width: 75px;
+    height: 75px;
+}
+
+/* internal links to nav pages */
+a:visited {
+    color: teal;
+}
+a:hover {
+    color:deeppink;
+}
+a:active {
+    color: navy;
+}
+
+
+textbox{
+    float: left;
+}
+
+#contactme{ 
+    float: left;
+    border: 4px solid teal;
+}
+
+h2{
+    background:whitesmoke;
+    padding: 20px;
+    float: right;
+    font-size: 25px;
+}
+
+#word1{
+    position: absolute;
+    left: 0px;
+}
+#word2{
+    position: absolute;
+    left: 0px;
+    top: 327px;
+}
+#word3{
+    position: absolute;
+    left: 0px;
+}
+
+h3{
+    color: teal;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* portfolio box */
+.portbox{
+    color: #777777;
+    /* float: left; */
+    margin-left: 170px;
+    width: 680px;
+    height: 980px;
+    margin-right: 180px;
+    border: 4px solid gray;
+    padding: 20px;
+    /* overflow: hidden; */
+    background-color: oldlace; 
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+/* aboutme box */
+.aboutme{
+    color: #777777;
+    /* float: left; */
+    margin-left: 170px;
+    width: 50%;
+    margin-right: 180px;
+    border: 4px solid gray;
+    padding: 20px;
+    /* overflow: hidden; */
+    background-color: oldlace; 
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+/* body{
+background-color:#cccccc;
+} */
+
+/* grey dotted box on all pages */
+.bigbox {
+    width:100%;
+    border: 5px dashed grey;
+    align-items: center;
+    /* background-color: oldlace; */
+    overflow: hidden;
+}
+/* dog photo */
+#image1{
+    width:270px;
+    height:360px;
+    margin:15px;
+    float: left;
+    border: solid grey;
+}
+/* small icon side box */
+  #sidebar{ 
+    font-family: 'Gloria Hallelujah', cursive;
+    background-color: oldlace;
+    float: right;
+    margin: 160px;
+    padding: 20px;
+    border: 5px solid grey;
+    position: fixed;
+    top: 150px;
+    right: 0;
+}
+
+footer{
+    padding: 20px;
+    color: white;
+    background-color: #666666;
+    text-align: center;
+    font-size: smaller;
+    /* border: teal; */
+    position: absolute;
+    bottom: 0;
+}
+
+/* portfolio images */
+.auth-image{
+    width: 700px;
+    height: 400px;
+    margin-top: 10px;
+    /* float: left; */
+    margin-right: 25px;
+}
+
+.work{
+    width: 300px; 
+    overflow: auto; 
+    position: relative;
+    float: left;
+    margin: 20px 0 25px;
+}
+
+.work img{
+    width: 300px;
+    border: 0 none;
+}
+
+.work h2{
+    border-bottom: 0;
+    /* background:  */
+    /* color */
+    text-align: center;
+    position: absolute; 
+    bottom: 20px;
+    padding: 15px;
+    width: 100%;
+    line-height: 30px;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+.contactbox{
+    margin-left: 170px;
+    width: 50%;
+    margin-right: 180px;
+    border: 4px solid gray;
+    padding: 20px;
+     overflow: hidden;
+    position: relative;
+    background-color: oldlace; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.wrapper {
+    width: 400px;
+    padding: 30px;
+    background: oldlace;
+    margin: 0 auto
+}
+.wrapper h2 {
+    color: gray;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: gray;
+}
+.wrapper input[type=text],
+.wrapper input[type=email],
+
+textarea {
+    width: 390px; 
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.wrapper a{
+    text-decoration: none;
+    color: whitesmoke;
+    background: teal;
+    display: block;
+    padding: 20px 15px;
+    text-align: center;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 960px){
+   .bigbox {
+       padding: 0 20px;
+       max-width: 760px;
+   }
+ 
+   .aboutme {
+        max-width: 420px;
+   }
+
+   @media only screen and (max-width: 760px){
+
+   .sidebar {
+       margin-bottom: 40px;
+   }
+
+   .work {
+       width: 500px;
+       margin-bottom: 10px;
+   }
+   .authimage{
+       width: 100%;
+   }
+
+
+}
+
+@media only screen and (max-width:640px){
+    .work, .auth-image{
+        width: 100%;
+    }
+
+    .bigbox {
+        padding: 0 20px;
+        max-width: 640px;
+    }
+}
+   
+}
+
